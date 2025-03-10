@@ -1,11 +1,11 @@
 function Footer() {
   return (
     <>
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-gray-800 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div>
-              <img src="/LB_Logo.svg" alt="Landberg Bygg" className="h-12 mb-4 brightness-0 invert" />
+              <img src="/LB_Logo.svg" alt="Landberg Bygg" className="h-12 mb-4" />
               <p className="text-gray-400 mb-4">
                 Førsteklasses tømrerarbeid med tradisjonelt håndverk og moderne teknikker.
               </p>
@@ -77,7 +77,7 @@ function Footer() {
                 </li>
               </ul>
               <div className="mt-4 pt-2">
-                <p className="text-sm text-gray-500">Org.nr: 123 456 789</p>
+                <p className="text-sm text-gray-500">Org.nr: 934 398 874</p>
               </div>
             </div>
           </div>
