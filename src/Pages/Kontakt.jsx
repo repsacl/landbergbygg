@@ -1,9 +1,15 @@
 import RevealText from '../Components/RevealText';
 import '../App.css';
+import { Helmet } from 'react-helmet';
 
 function Contact() {
   return (
     <>
+      <Helmet>
+        <title>Kontakt Landberg Bygg AS</title>
+        <meta name="description" content="Ta kontakt med Landberg Bygg AS for uforpliktende befaring eller spørsmål om våre tømrertjenester. Ring oss på +47 459 11 367 eller send en melding." />
+      </Helmet>
+
       <section className="relative flex flex-col justify-center items-center min-h-screen pt-24 pb-16"
         style={{ backgroundImage: "url('/contact-bg.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
         

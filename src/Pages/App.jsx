@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom';
 import ReavelText from '../Components/RevealText';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <>
+      <Helmet>
+        <title>Landberg Bygg AS</title>
+        <meta name="description" content="Landberg Bygg AS tilbyr førsteklasses tømrerarbeid med tradisjonelt håndverk og moderne teknikker i Fredrikstad. Kontakt oss for befaring." />
+      </Helmet>
+
       <section className="hero relative flex items-center justify-center h-screen bg-cover bg-center" 
                style={{ backgroundImage: "url('/hero-image.jpg')" }}>
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40"></div>

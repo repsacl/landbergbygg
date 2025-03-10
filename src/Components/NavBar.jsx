@@ -28,7 +28,7 @@ function NavBar() {
             src="/LB_Logo.svg" 
             alt="Logo" 
             className={`md:h-14 h-10 cursor-pointer m-0 transition-all ease-in hover:scale-105 ${
-              scrolled ? "filter-none" : ""
+              scrolled ? "filter-none" : "filter-grayscale"
             }`}
           />
         </Link>

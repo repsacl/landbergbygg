@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom';
 import RevealText from '../Components/RevealText';
+import { Helmet } from 'react-helmet';
 
 import '../App.css';
 
 function About() {
   return (
     <>
+      <Helmet>
+        <title>Om Landberg Bygg AS</title>
+        <meta name="description" content="Landberg Bygg AS kombinerer tradisjonelt håndverk med moderne teknikker. Vi tilbyr renovering, rehabilitering, tilbygg og mye mer." />
+      </Helmet>
+
       <section className="relative flex flex-col justify-center items-center min-h-screen bg-cover bg-center pt-24 pb-16"
         style={{ backgroundImage: "url('/about-bg.jpg')" }}>
         
