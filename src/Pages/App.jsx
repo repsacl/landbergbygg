@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Landberg Bygg AS | Førsteklasses tømrerarbeid i Fredrikstad</title>
+        <title>Landberg Bygg AS | Tømrerarbeid i Fredrikstad</title>
         <meta name="description" content="Landberg Bygg AS tilbyr førsteklasses tømrerarbeid med tradisjonelt håndverk og moderne teknikker i Fredrikstad. Spesialister på renovering, tilbygg og rehabilitering. Kontakt oss for befaring." />
       </Helmet>
 
@@ -57,7 +57,7 @@ function App() {
               animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 20 }}
               transition={{ duration: 0.8, delay: 1 }}
             >
-              Førsteklasses tømrerarbeid med tradisjonelt håndverk og moderne teknikker
+              Tømrerarbeid med tradisjonelt håndverk og moderne teknikker
             </motion.p>
 
             {/* CTA Buttons */}

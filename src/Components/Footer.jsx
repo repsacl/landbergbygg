@@ -7,7 +7,7 @@ function Footer() {
             <div>
               <img src="/LB_Logo.svg" alt="Landberg Bygg" className="h-12 mb-4" />
               <p className="text-gray-400 mb-4">
-                Førsteklasses tømrerarbeid med tradisjonelt håndverk og moderne teknikker.
+                Tømrerarbeid med tradisjonelt håndverk og moderne teknikker.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -69,12 +69,12 @@ function Footer() {
                   </svg>
                   <span>Terrasser og uteplasser</span>
                 </li>
-                <li className="flex items-center">
+                {/* <li className="flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Kjøkken og bad</span>
-                </li>
+                </li> */}
               </ul>
               <div className="mt-4 pt-2">
                 <p className="text-sm text-gray-500">Org.nr: 934 398 874</p>

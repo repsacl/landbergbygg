@@ -82,7 +82,7 @@ function NavBar() {
             <NavLink to="/kontakt">Kontakt</NavLink>
           </div>
           
-          <Link 
+          {/* <Link 
             to="/kontakt" 
             className={`px-5 py-2 rounded-md transition-all duration-300 ${
               scrolled 
@@ -91,7 +91,7 @@ function NavBar() {
             }`}
           >
             Ta kontakt
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile menu button */}
@@ -142,12 +142,12 @@ function NavBar() {
               >
                 Kontakt
               </Link>
-              <Link 
+              {/* <Link 
                 to="/kontakt" 
                 className="mt-2 py-3 px-4 bg-blue-600 text-white text-center rounded-md font-medium"
               >
                 Ta kontakt for befaring
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         )}

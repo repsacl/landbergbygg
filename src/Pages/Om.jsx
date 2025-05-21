@@ -27,7 +27,7 @@ function About() {
               <RevealText className={"text-lg md:text-xl text-gray-800 leading-relaxed"} DURATION={1.1}>
                 <h2 className="text-2xl md:text-3xl font-bold text-blue-800 mb-6">Tradisjon møter innovasjon</h2>
                 
-                <p className="mb-4">Hos <strong>Landberg Bygg AS</strong> er vi stolte av å tilby førsteklasses tømrerarbeid til våre kunder. Med flere års erfaring i bransjen og moderne løsninger, leverer vi skreddersydde løsninger som oppfyller dine behov og overgår dine forventninger.</p>
+                <p className="mb-4">Hos <strong>Landberg Bygg AS</strong> er vi stolte av å tilby kvalitetsbevisst tømrerarbeid til våre kunder. Med flere års erfaring i bransjen og moderne løsninger, leverer vi skreddersydde løsninger som oppfyller dine behov og overgår dine forventninger.</p>
                 
                 <p className="mb-4">Vi tar på oss oppdrag som rehabilitering og renovering til mindre reparasjoner og vedlikehold. Vårt mål er å kombinere tradisjonelt håndverk med moderne teknikker for å sikre høy kvalitet og varige resultater.</p>
                 
@@ -49,8 +49,6 @@ function About() {
                     <li>Renovering og rehabilitering</li>
                     <li>Tilbygg og påbygg</li>
                     <li>Terrasser og uteplasser</li>
-                    <li>Baderomsoppussing</li>
-                    <li>Kjøkkenmontering</li>
                     <li>Tak og fasadearbeid</li>
                     <li>Mindre reparasjoner</li>
                   </ul>
