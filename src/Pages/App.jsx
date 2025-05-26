@@ -13,9 +13,10 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Landberg Bygg AS | Tømrerarbeid i Fredrikstad</title>
-        <meta name="description" content="Landberg Bygg AS tilbyr førsteklasses tømrerarbeid med tradisjonelt håndverk og moderne teknikker i Fredrikstad. Spesialister på renovering, tilbygg og rehabilitering. Kontakt oss for befaring." />
+        <title>Landberg Bygg AS | Tømrerfirma i Fredrikstad</title>
+        <meta name="description" content="Hos Landberg Bygg AS er vi stolte av å tilby kvalitetsbevisst tømrerarbeid til våre kunder. Tar på oss oppdrag som renovering, tilbygg, rehabilitering og mye mer. Kontakt oss for befaring." />
       </Helmet>
+
 
       <div className="overflow-hidden">
         {/* Hero Section */}
